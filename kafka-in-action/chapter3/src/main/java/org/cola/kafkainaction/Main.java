@@ -1,4 +1,4 @@
-package org.cola.kafka.in.action;
+package org.cola.kafkainaction;
 
 public class Main {
     public static void main(String[] args) {
