@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter4" />
         <module name="chapter3" />
+        <module name="chapter5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="chapter3" options="-Xlint:deprecation -Werror" />
       <module name="chapter4" options="-Xlint:deprecation -Werror" />
+      <module name="chapter5" options="-Xlint:deprecation -Werror" />
     </option>
   </component>
 </project>
