@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter7" />
         <module name="chapter5" />
+        <module name="chapter11" />
         <module name="chapter4" />
         <module name="chapter3" />
         <module name="chapter9" />
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chapter11" options="-Xlint:deprecation -Werror" />
       <module name="chapter3" options="-Xlint:deprecation -Werror" />
       <module name="chapter4" options="-Xlint:deprecation -Werror" />
       <module name="chapter5" options="-Xlint:deprecation -Werror" />
