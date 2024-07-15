@@ -14,12 +14,12 @@ import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.apache.kafka.streams.integration.utils.EmbeddedKafkaCluster;
 import org.apache.kafka.test.TestUtils;
+import org.cola.kafkainaction.consumer.AlertConsumer;
+import org.cola.kafkainaction.model.Alert;
+import org.cola.kafkainaction.serde.AlertKeySerde;
 import org.junit.Before;
 import org.junit.ClassRule;
 import org.junit.Test;
-import org.kafkainaction.consumer.AlertConsumer;
-import org.kafkainaction.model.Alert;
-import org.kafkainaction.serde.AlertKeySerde;
 
 
 public class EmbeddedKafkaClusterTest {
